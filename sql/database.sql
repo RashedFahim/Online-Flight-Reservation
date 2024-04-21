@@ -56,7 +56,7 @@ CREATE TABLE Airline(
 CREATE TABLE Payment(
     Transaction_ID int Primary key,
     User_ID int,
-    Flight_ID varchar(50),
+    Flight_number varchar(50),
     Payment_number int,
     Card_number varchar(50),
     Amount decimal,
