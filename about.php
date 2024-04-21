@@ -85,7 +85,7 @@
 </head>
 <body>
     <div class="button-container">
-        <a href="home1.php" class="home-link">Home</a>
+        <a href="home.php" class="home-link">Home</a>
         <a href="#" class="services-link">Services</a>
         <a href="#" class="contact-link">Contact</a>
     </div>
