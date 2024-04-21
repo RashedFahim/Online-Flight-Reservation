@@ -30,7 +30,14 @@
                 background-position: 0% 50%;
             }
         }
-
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url('images/userhome.jpg'); /* Replace 'your_image_path.jpg' with the path to your image file */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Open Sans', sans-serif;
+        }
         /* Additional styles for the content */
         header, nav, section, footer {
             padding: 15px;
@@ -81,6 +88,8 @@
             display: flex;
             gap: 20px;
         }
+
+        
     </style>
 </head>
 <body>
