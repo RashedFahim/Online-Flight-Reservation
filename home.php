@@ -199,7 +199,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="home1.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
