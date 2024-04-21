@@ -114,3 +114,6 @@ CREATE TABLE Provides_Feedback(
     FOREIGN KEY (User_ID) REFERENCES user(User_ID),
     FOREIGN KEY (Feedback_ID) REFERENCES FAQ(Feedback_ID)
 );
+
+INSERT INTO admin values
+(007,'admin','admin@gmail.com','admin')
