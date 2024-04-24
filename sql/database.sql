@@ -11,7 +11,7 @@ CREATE TABLE user (
 
 
 INSERT INTO user values
-(1,'user','user@gmail.com','user','user','mirpur','05-11-2001',1234);
+(1001,'user','user@gmail.com','user','user','mirpur','05-11-2001',1234);
 
 
 
