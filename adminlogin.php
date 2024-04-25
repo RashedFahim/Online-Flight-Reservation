@@ -137,15 +137,15 @@
     <div class="login-container">
         <h2 style="color: #FFFFF0; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Admin Login</h2>
         <form class="login-form" method="post">
-            <input type="text" name="username" placeholder="Username" required style="color: #FFFFF0;">
+            <input type="text" name="Name" placeholder="Name" required style="color: #FFFFF0;">
             <input type="password" name="password" placeholder="Password" required style="color: #FFFFF0;">
             <br><br>
             <button type="submit">Login</button>
             <?php 
             require_once('db_connect.php');
-            if(isset($_POST['username'])){
+            if(isset($_POST['Name'])){
     
-                $uname=$_POST['username'];
+                $uname=$_POST['Name'];
                 $password=$_POST['password'];
     
                 $sql="SELECT * FROM admin WHERE Name ='$uname' AND Password='$password'";
