@@ -211,8 +211,8 @@
         <p style="color: #FFFFF0; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);">Experience luxury and comfort in every journey.</p>
         <p style="color: #FFFFF0; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);">Fly with us and explore the world like never before.</p>
         <div class="options-section">
-            <a href="book_tickets2.php">Book Tickets Now</a>
-            <a href="flight_schedule.php">My Flight Schedule</a>
+            <a href="bookticketsnow.php">Book Tickets Now</a>
+            <a href="">My Flight Schedule</a>
             <a href="cancel_flight.php">Cancel My Flight</a>
         </div>
     </section>
