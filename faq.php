@@ -134,14 +134,14 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
         }
 
         .faq-section {
-            text-align: center;
+            text-align: left; /* Adjusted alignment */
             margin-top: 50px;
             padding: 20px;
         }
 
         .faq-question {
             font-weight: bold;
-            font-size: 20px;
+            font-size: 18px; /* Adjusted font size */
             color: #333;
             margin-bottom: 10px;
         }
@@ -150,7 +150,6 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
             font-size: 16px;
             line-height: 1.5;
             color: #333;
-            margin-bottom: 20px;
         }
 
         footer {
@@ -164,14 +163,14 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
         }
     </style>
     <script>
-        // Javascript
+        // JavaScript
     </script>
 </head>
 <body>
     <div class="top-right-options">
         <a href="SignOut.php">Sign Out</a>
         <?php
-        
+            session_start();
             if (isset($_SESSION['username']) && !empty($_SESSION['username'])) {
                 echo "Welcome, " . $_SESSION['username'] . "!";
             } else {
@@ -191,34 +190,33 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
             <li><a href="home.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="services.php">Services</a></li>
-
         </ul>
     </nav>
     <div class="faq-section">
         <h2>Frequently Asked Questions (FAQ)</h2>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">How do I book a flight?</span></div>
-            <div class="faq-answer"> To book a flight, simply log in to your account, search for available flights, select your desired flight, and proceed with the booking process.</div>
+            <div class="faq-question">How do I book a flight?</div>
+            <div class="faq-answer">To book a flight, simply log in to your account, search for available flights, select your desired flight, and proceed with the booking process.</div>
         </div>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">What payment methods are accepted?</span></div>
-            <div class="faq-answer"> We accept payments via major credit cards (Visa, MasterCard, American Express), debit cards, and online payment platforms such as PayPal.</div>
+            <div class="faq-question">What payment methods are accepted?</div>
+            <div class="faq-answer">We accept payments via major credit cards (Visa, MasterCard, American Express), debit cards, and online payment platforms such as PayPal.</div>
         </div>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">Can I cancel or modify my booking?</span></div>
-            <div class="faq-answer"> Yes, you can modify or cancel your booking depending on the airline's policies. Please check your booking confirmation email for details or contact our customer support.</div>
+            <div class="faq-question">Can I cancel or modify my booking?</div>
+            <div class="faq-answer">Yes, you can modify or cancel your booking depending on the airline's policies. Please check your booking confirmation email for details or contact our customer support.</div>
         </div>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">Are meals included in the ticket?</span></div>
-            <div class="faq-answer"> Meal options vary by flight and class. Some flights offer complimentary meals, while others have meal options available for purchase. You can check during the booking process.</div>
+            <div class="faq-question">Are meals included in the ticket?</div>
+            <div class="faq-answer">Meal options vary by flight and class. Some flights offer complimentary meals, while others have meal options available for purchase. You can check during the booking process.</div>
         </div>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">What should I do if my flight is delayed or canceled?</span></div>
-            <div class="faq-answer"> In case of flight delays or cancellations, the airline will notify you via email or SMS. You can also check your flight status on our website or contact our customer support for assistance.</div>
+            <div class="faq-question">What should I do if my flight is delayed or canceled?</div>
+            <div class="faq-answer">In case of flight delays or cancellations, the airline will notify you via email or SMS. You can also check your flight status on our website or contact our customer support for assistance.</div>
         </div>
         <div class="faq-item">
-            <div class="faq-question"> <span style="font-weight: bold; font-size: 20px; color: #333;">How can I retrieve my booking confirmation?</span></div>
-            <div class="faq-answer"> Your booking confirmation is sent to the email address provided during the booking process. If you haven't received it, please check your spam folder. You can also log in to your account to view and print your booking details.</div>
+            <div class="faq-question">How can I retrieve my booking confirmation?</div>
+            <div class="faq-answer">Your booking confirmation is sent to the email address provided during the booking process. If you haven't received it, please check your spam folder. You can also log in to your account to view and print your booking details.</div>
         </div>
     </div>
     <footer>
