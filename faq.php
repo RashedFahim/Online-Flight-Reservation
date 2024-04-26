@@ -137,6 +137,14 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
             text-align: left; /* Adjusted alignment */
             margin-top: 50px;
             padding: 20px;
+            max-width: 800px; /* Adjusted width */
+            margin: 0 auto; /* Centered horizontally */
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #ccc; /* Added border between items */
+            padding-bottom: 20px; /* Added spacing */
+            margin-bottom: 20px; /* Added spacing */
         }
 
         .faq-question {
