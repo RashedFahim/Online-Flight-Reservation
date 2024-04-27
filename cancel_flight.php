@@ -1,7 +1,7 @@
 <?php
 require_once('db_connect.php');
-$success = "success!";
-$error_message = "error, not working";
+$success = "";
+$error_message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['delete_flight'])) {
