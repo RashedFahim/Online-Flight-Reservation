@@ -1,6 +1,6 @@
 # Online-Flight-Reservation
 
-**Introduction**
+#Introduction
 
 Our project intends to launch a cutting-edge online travel booking platform that
 provides customers with a smooth and effective booking experience.
@@ -12,7 +12,7 @@ complete transactions with confidence because it is built upon strong frameworks
 industry-standard procedures.
 
 
-**Project Features**
+#Project Features
 
 1. Different Homepage for admins and users : When users and admins log in to the
 website, they see different homepages according to their respective needs.
